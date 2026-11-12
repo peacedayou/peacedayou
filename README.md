@@ -1,22 +1,36 @@
 ## Bonjour, je suis Pacome Dayou
 
-Étudiant au baccalauréat en informatique à l'**UQAR** (campus de Lévis, Québec). Je développe des applications web et des API en **C# / ASP.NET Core** et en **Python / Django**.
+Étudiant en 3e année du baccalauréat en informatique à l'**UQAR** (campus de Lévis, Québec). Je développe des API et des applications web en **C# / .NET** et en **Python**, avec des tests automatisés et une intégration continue sur chaque projet.
 
-**Je recherche un stage crédité (hiver ou été 2027) ou un emploi étudiant** en développement logiciel, analyse-programmation ou soutien TI dans la région de Québec–Lévis.
+**Je recherche un stage crédité (hiver ou été 2027)** en développement, en administration de plateforme ou en sécurité applicative, dans la région de Québec–Lévis.
 
-### Projets
+### Projets en vedette
 
-| Projet | Description | Technologies |
+| Projet | Ce qu'il fait | Technologies |
 | --- | --- | --- |
-| [borealis-api](https://github.com/peacedayou/borealis-api) | Moissonne les jeux de données scientifiques de Borealis et les expose en REST, en GraphQL et dans un tableau de bord | Python, Django, DRF, GraphQL, MySQL, Render |
-| [TP_SI](https://github.com/peacedayou/TP_SI) | Génération de dictionnaires et démonstration d'attaque sur des hachages bcrypt, avec une interface de bureau | C#, .NET 8, WPF, MVVM |
+| [authkit-api](https://github.com/peacedayou/authkit-api) | Authentification sécurisée : JWT, rotation des jetons avec détection de réutilisation, verrouillage, limitation du débit, rôles | .NET 10, ASP.NET Core, EF Core, xUnit |
+| [stagetrack-web](https://github.com/peacedayou/stagetrack-web) · [**démo en ligne**](https://peacedayou.github.io/stagetrack-web/) | Interface de suivi de candidatures : tableau de bord, filtres, formulaires validés | Blazor WebAssembly, bUnit, GitHub Pages |
+| [stagetrack-api](https://github.com/peacedayou/stagetrack-api) | L'API derrière StageTrack, avec tests d'intégration et CORS configurable | ASP.NET Core, EF Core, SQLite |
+| [audit-express](https://github.com/peacedayou/audit-express) | Analyse de sécurité automatisée de contrats intelligents, rapport en français classé par gravité | Python, Slither, Foundry |
+| [web3-contract-kit](https://github.com/peacedayou/web3-contract-kit) | Contrats d'acquisition de jetons, d'airdrop Merkle et de multisignature, testés par fuzzing | Solidity, Foundry, OpenZeppelin |
+| [passmembre](https://github.com/peacedayou/passmembre) | Cartes de membre non transférables pour associations et événements | Solidity, ERC-721 |
+| [borealis-api](https://github.com/peacedayou/borealis-api) | Moissonnage de jeux de données scientifiques exposés en REST et GraphQL | Python, Django, GraphQL |
+
+Toutes les intégrations continues sont publiques : chaque dépôt montre ses tests à chaque modification.
 
 ### Compétences
 
-**Langages :** C#, C++, Python, SQL, JavaScript, HTML/CSS
-**Back-end :** ASP.NET Core, Entity Framework Core, Django, API REST, GraphQL
-**Outils :** Git, GitHub, Docker, Visual Studio
-**Conception :** UML, architecture logicielle, MVVM
+**Langages :** C#, Python, SQL, JavaScript, C++, Solidity
+**Back-end et web :** ASP.NET Core, Entity Framework Core, Blazor, FastAPI, Django, API REST, GraphQL
+**Qualité et DevOps :** xUnit, bUnit, pytest, GitHub Actions, Docker
+**Sécurité :** JWT, gestion des jetons, hachage des mots de passe, limitation du débit, analyse statique
+**IA :** utilisation encadrée d'assistants comme Claude pour concevoir, tester et documenter
+
+### En ce moment
+
+- Administrateur exécutif au conseil d'administration de la Coop Zone
+- Représentant étudiant au conseil de module en informatique (UQAR Lévis)
+- En préparation : GitHub Foundations, Azure Fundamentals (AZ-900)
 
 ### Me joindre
 
