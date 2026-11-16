@@ -8,22 +8,27 @@
 
 | Projet | Ce qu'il fait | Technologies |
 | --- | --- | --- |
+| [rtr-lab](https://github.com/peacedayou/rtr-lab) · [**démo**](https://peacedayou.github.io/rtr-lab/) | Simulateur de paiements en temps réel ISO 20022 (pacs.008, pacs.002, camt.054) : validation XSD, idempotence, rejets à codes ISO, rapprochement | Java 21, Spring Boot, Kafka, PostgreSQL, Testcontainers |
+| [consentbank](https://github.com/peacedayou/consentbank) · [**présentation**](https://peacedayou.github.io/consentbank/) | Partage de données bancaires avec consentement : OAuth 2.0 avec PKCE et PAR, révocation immédiate, journal d'audit chaîné, portail | .NET 10, OpenIddict, Blazor, xUnit |
+| [soc-lab](https://github.com/peacedayou/soc-lab) · [**couverture ATT&CK**](https://peacedayou.github.io/soc-lab/) | Laboratoire SOC : règles Sigma reliées à MITRE ATT&CK et testées, règles Wazuh vérifiées avec wazuh-logtest, attaques simulées, fiche Shuffle | Wazuh, Sigma, Atomic Red Team, Docker |
 | [authkit-api](https://github.com/peacedayou/authkit-api) | Authentification sécurisée : JWT, rotation des jetons avec détection de réutilisation, verrouillage, limitation du débit, rôles | .NET 10, ASP.NET Core, EF Core, xUnit |
-| [stagetrack-web](https://github.com/peacedayou/stagetrack-web) · [**démo en ligne**](https://peacedayou.github.io/stagetrack-web/) | Interface de suivi de candidatures : tableau de bord, filtres, formulaires validés | Blazor WebAssembly, bUnit, GitHub Pages |
-| [stagetrack-api](https://github.com/peacedayou/stagetrack-api) | L'API derrière StageTrack, avec tests d'intégration et CORS configurable | ASP.NET Core, EF Core, SQLite |
+| [verifcrypto-qc](https://github.com/peacedayou/verifcrypto-qc) · [**démo**](https://peacedayou.github.io/verifcrypto-qc/) | Vérification en français d'un site ou d'une entreprise contre les mises en garde de l'AMF, faits sourcés seulement | Python, JavaScript |
+| [adminwatch](https://github.com/peacedayou/adminwatch) · [**démo**](https://peacedayou.github.io/adminwatch/) | Alertes Telegram quand un protocole DeFi où l'on a des positions planifie une mise à jour, change un rôle ou un oracle | TypeScript, viem, Docker |
+| [stagetrack-web](https://github.com/peacedayou/stagetrack-web) · [**démo**](https://peacedayou.github.io/stagetrack-web/) | Suivi de candidatures : tableau de bord, filtres, formulaires validés, avec son [API](https://github.com/peacedayou/stagetrack-api) | Blazor WebAssembly, ASP.NET Core, bUnit |
+| [agentos](https://github.com/peacedayou/agentos) | Agent IA autonome en ligne de commande : plan, outils, mémoire, garde-fous | Python |
 | [audit-express](https://github.com/peacedayou/audit-express) | Analyse de sécurité automatisée de contrats intelligents, rapport en français classé par gravité | Python, Slither, Foundry |
-| [web3-contract-kit](https://github.com/peacedayou/web3-contract-kit) | Contrats d'acquisition de jetons, d'airdrop Merkle et de multisignature, testés par fuzzing | Solidity, Foundry, OpenZeppelin |
-| [passmembre](https://github.com/peacedayou/passmembre) | Cartes de membre non transférables pour associations et événements | Solidity, ERC-721 |
-| [borealis-api](https://github.com/peacedayou/borealis-api) | Moissonnage de jeux de données scientifiques exposés en REST et GraphQL | Python, Django, GraphQL |
+
+Autres : [web3-contract-kit](https://github.com/peacedayou/web3-contract-kit), [passmembre](https://github.com/peacedayou/passmembre), [borealis-api](https://github.com/peacedayou/borealis-api).
 
 Toutes les intégrations continues sont publiques : chaque dépôt montre ses tests à chaque modification.
 
 ### Compétences
 
-**Langages :** C#, Python, SQL, JavaScript, C++, Solidity
-**Back-end et web :** ASP.NET Core, Entity Framework Core, Blazor, FastAPI, Django, API REST, GraphQL
-**Qualité et DevOps :** xUnit, bUnit, pytest, GitHub Actions, Docker
-**Sécurité :** JWT, gestion des jetons, hachage des mots de passe, limitation du débit, analyse statique
+**Langages :** C#, Java, Python, TypeScript, SQL, JavaScript, C++, Solidity
+**Back-end et web :** ASP.NET Core, Entity Framework Core, Blazor, Spring Boot, FastAPI, Django, API REST, GraphQL
+**Paiements et données :** ISO 20022, Kafka, PostgreSQL, OAuth 2.0 (PKCE, PAR), OpenIddict
+**Qualité et DevOps :** xUnit, bUnit, JUnit, pytest, Testcontainers, GitHub Actions, Docker
+**Sécurité :** JWT, gestion des jetons, hachage des mots de passe, limitation du débit, analyse statique, SIEM Wazuh, règles Sigma, MITRE ATT&CK
 **IA :** utilisation encadrée d'assistants comme Claude pour concevoir, tester et documenter
 
 ### En ce moment
